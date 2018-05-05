@@ -1,0 +1,902 @@
+@charset "UTF-8";
+
+/* ---------------------------------
+ * ----------- FONT SIZES ----------
+ * --------------------------------- */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 8px;
+    }
+
+    .text-heading {
+        font-size: 3.5em;
+        font-weight: 700;
+    }
+
+    .heading-with-underline p:nth-child(1), .heading-with-underline p:nth-child(2) {
+        font-size: 3em;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+ * --------------------------------------------------- ERROR PAGES ----------------------------------------------------
+ * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1000px) {
+    .error-403, .error-404, .error-500 {
+        width: 100%;
+        padding-top: 150px;
+    }
+
+    .error-403 .cw-col-left, .error-404 .cw-col-left, .error-500 .cw-col-left {
+        width: 100%;
+        float: none;
+        margin-top: 70px;
+    }
+
+    .error-403 .cw-col-right, .error-404 .cw-col-right {
+        width: 80%;
+        margin: auto;
+        float: none;
+        padding-top: 0px;
+    }
+
+    .error-500 .cw-col-right {
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .error-status-img {
+        width: 60%;
+    }
+
+    .error-status-msg {
+        width: 100%;
+    }
+
+    .error-403 .cw-col-right, .error-404 .cw-col-right, .error-500 .cw-col-right {
+        width: 100%;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+ * ----------------------------------------------------- NAVBAR -------------------------------------------------------
+ * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1360px) {
+    .navbar-links nav ul:nth-child(1) {
+        display: none;
+    }
+
+    .mobile-hamburger-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-navbar-close-btn {
+        padding: 5px 11px 7px 11px;
+        font-size: 2em;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+  * ----------------------------------------------------- HOMEPAGE -----------------------------------------------------
+  * -------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------
+   * -------------- HEADER -------------
+   * ----------------------------------- */
+@media only screen and (max-width: 1060px) {
+    .homepage-header {
+        background: url('../../img/branding-background-2.svg') !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    .homepage-header .cw-col-left {
+        width: 100%;
+        float: none;
+        position: static;
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+
+    .homepage-header .cw-col-right {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .homepage-header .cw-col-left .form-2-inputs .form-field {
+        width: 100%;
+    }
+
+    .homepage-header .cw-col-left .form-2-inputs .form-field:nth-child(2) {
+        margin-top: 20px;
+    }
+}
+
+/* -----------------------------------
+  * ------------- ABOUT US ------------
+  * ----------------------------------- */
+@media only screen and (max-width: 1270px) {
+    .homepage-about-us .cw-col-left {
+        width: 25%;
+        -webkit-transform: translateY(80px);
+        -moz-transform: translateY(80px);
+        -ms-transform: translateY(80px);
+        -o-transform: translateY(80px);
+        transform: translateY(80px);
+    }
+
+    .homepage-about-us .cw-col-right {
+        width: 70%;
+    }
+
+    .homepage-about-us img:nth-child(1) {
+        width: 250px;
+    }
+
+    .homepage-about-us img:nth-child(2) {
+        width: 250px;
+        padding: 117px 50px 81px 50px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .homepage-about-us .cw-col-left {
+        width: 250px;
+        height: 250px;
+        display: block;
+        float: none;
+        margin: auto;
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    .homepage-about-us .cw-col-right {
+        width: 100%;
+        float: none;
+        margin-top: 50px;
+    }
+}
+
+/* -----------------------------------
+  * -------------- STEPS --------------
+  * ----------------------------------- */
+@media only screen and (max-width: 1300px) {
+    .homepage-steps .cw-full-width .cw-col-3 {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .homepage-steps .center-heading {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .homepage-steps .cw-full-width .cw-col-3 {
+        padding: 30px 15px;
+    }
+
+    .homepage-steps .cw-full-width .cw-col-3 .steps {
+        width: 250px;
+    }
+
+    .homepage-steps .cw-full-width .cw-col-3:nth-child(1) .steps img {
+        position: relative;
+        left: -10px;
+    }
+}
+
+/* -----------------------------------
+   * ----------- CONTACT US ------------
+   * ----------------------------------- */
+@media only screen and (max-width: 1200px) {
+    .homepage-contact-us .cw-col-left {
+        width: 400px;
+        -webkit-transform: translateY(90px);
+        -moz-transform: translateY(90px);
+        -ms-transform: translateY(90px);
+        -o-transform: translateY(90px);
+        transform: translateY(90px);
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .homepage-contact-us .cw-col-left {
+        float: none;
+        margin: 0px auto 50px auto;
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    .homepage-contact-us .cw-col-right {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .homepage-contact-us .form-2-inputs .form-field {
+        width: 100%;
+        float: none;
+    }
+
+    .homepage-contact-us .form-2-inputs .form-field:nth-child(1) {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .homepage-contact-us .cw-col-left {
+        width: 100%;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+   * ----------------------------------------------------- FOOTER -------------------------------------------------------
+   * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1300px) {
+    .footer-links div a {
+        line-height: 15px;
+    }
+}
+
+@media only screen and (max-width: 1235px) {
+    .footer-top .cw-col-3 {
+        width: 100%;
+        float: none;
+        padding: 0;
+        text-align: center;
+        margin: 0px auto 70px auto;
+    }
+
+    .footer-top .cw-col-3:first-child {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .footer-logo img {
+        margin: auto;
+    }
+
+    .footer-top .cw-col-3:last-child {
+        margin-bottom: 50px;
+    }
+
+    .subscribe-form {
+        width: 500px;
+        margin: auto;
+    }
+
+    .footer-contact-info {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .rtl .footer-contact-info .contact-icon, .footer-contact-info .contact-icon {
+        float: none;
+        margin: auto;
+    }
+
+    .rtl .footer-contact-info .contact-icon-content, .footer-contact-info .contact-icon-content {
+        width: 400px;
+        float: none;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-links div a {
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-top .cw-col-3:first-child {
+        width: 100%;
+    }
+
+    .footer-contact-info .contact-icon-content {
+        width: 100%;
+    }
+
+    .subscribe-form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .rtl .footer-bottom-copyrights, .footer-bottom-copyrights {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .rtl .footer-bottom-social-media, .footer-bottom-social-media {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+ * -------------------------------------------------- LOGIN MODAL -----------------------------------------------------
+ * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1000px) {
+    .login-modal {
+        max-width: 500px;
+    }
+
+    .login-modal .cw-col-left {
+        width: 100%;
+        margin: auto;
+        float: none;
+    }
+
+    .login-modal .cw-col-right {
+        display: none;
+        float: none;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+ * ---------------------------------------------------- ABOUT US ------------------------------------------------------
+ * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1300px) {
+    .about-us-contents .cw-col-left, .about-us-content .about-us-contents:nth-child(even) .cw-col-left {
+        width: 100%;
+        float: none;
+        padding: 50px 30px;
+    }
+
+    .about-us-contents .cw-col-left, .about-us-content .about-us-contents:nth-child(even) .cw-col-left, .about-us-contents .cw-col-right, .about-us-content .about-us-contents:nth-child(even) .cw-col-right {
+        display: inline-block;
+    }
+
+    .rtl .about-us-contents .cw-col-left img, .rtl .about-us-content .about-us-contents:nth-child(even) .cw-col-left img, .about-us-contents .cw-col-left img, .about-us-content .about-us-contents:nth-child(even) .cw-col-left img {
+        width: 200px;
+        float: none;
+        margin: auto;
+    }
+
+    .about-us-contents .cw-col-right, .about-us-content .about-us-contents:nth-child(even) .cw-col-right {
+        width: 100%;
+        position: static;
+        float: none;
+        padding: 50px 30px;
+    }
+
+    .about-us-content-p {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .about-us-content-p div:last-child {
+        padding-right: 0px;
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+ * ---------------------------------------------------- SITEMAP -------------------------------------------------------
+ * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+    .site-map .cw-col-3 {
+        width: 50%;
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .site-map .cw-col-3 {
+        width: 100%;
+        margin: auto;
+        float: none;
+        padding-left: 40px;
+    }
+}
+
+/* -----------------------------------------------------------------------------------------------------------------
+ * ---------------------------------------------------- FAQs -------------------------------------------------------
+ * ----------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+    .faq-question {
+        height: auto;
+        max-height: none;
+    }
+
+    .expand-collapse-question {
+        display: none;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+ * ---------------------------------------------------- CONTACT US ----------------------------------------------------
+ * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1300px) {
+    .contact-us-form .form-2-inputs .form-field {
+        width: 100%;
+        float: none;
+    }
+
+    .contact-us-form .form-2-inputs .form-field:first-child {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .rtl .contact-us-contents .cw-col-left, .contact-us-contents .cw-col-left {
+        width: 100%;
+        height: 400px;
+        float: none;
+        position: static;
+    }
+
+    .rtl .contact-us-content .cw-col-right, .contact-us-contents .cw-col-right {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-us-contents .cw-col-right {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .rtl .contact-us-info-row div:first-child, .contact-us-info-row div:first-child {
+        float: none;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .contact-us-info-row div:last-child {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+ * --------------------------------------------- BUY NEW POLICY STEP 1 ------------------------------------------------
+ * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1050px) {
+    .steps-container {
+        width: 840px;
+    }
+
+    .rtl .step-container {
+        margin-left: 0px;
+    }
+
+    .step-container {
+        margin-right: 10px;
+    }
+
+    .step-container:nth-child(1):after, .step-container:nth-child(2):after, .step-container:nth-child(3):after {
+        margin-left: 30px;
+    }
+
+    .rtl .step-container:nth-child(1):after, .rtl .step-container:nth-child(2):after, .rtl .step-container:nth-child(3):after {
+        margin-right: 30px;
+        margin-left: 0px;
+    }
+
+    .rtl .steps-container .step-container:last-child {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .steps-container {
+        width: 670px;
+    }
+
+    .step-container {
+        width: 160px;
+    }
+
+    .step-container:nth-child(1):after, .step-container:nth-child(2):after, .step-container:nth-child(3):after {
+        width: 100px;
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .steps-container {
+        width: 580px;
+    }
+
+    .step-container {
+        width: 135px;
+    }
+
+    .step-container:nth-child(1):after, .step-container:nth-child(2):after, .step-container:nth-child(3):after {
+        width: 85px;
+        margin-left: 30px;
+    }
+
+    #processing-data-fetching p {
+        -webkit-transform: translateX(-40%);
+        -moz-transform: translateX(-40%);
+        -ms-transform: translateX(-40%);
+        -o-transform: translateX(-40%);
+        transform: translateX(-40%);
+    }
+
+    #processing-data-fetching p span {
+        margin-top: 4px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .step-1-form .cw-col-left, .step-1-form .cw-col-right {
+        width: 100%;
+        float: none;
+    }
+
+    .form-label label span .span-description {
+        width: 200px;
+        margin-left: -100px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .steps-container {
+        width: 365px;
+    }
+
+    .step-container {
+        width: 82px;
+    }
+
+    .step-container:nth-child(1):after, .step-container:nth-child(2):after, .step-container:nth-child(3):after {
+        width: 32px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .step-1-form .form-submit-btn input:last-child {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .steps-container, .step-container {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .steps-container .step-container:not(.step-active) {
+        display: none;
+    }
+
+    .step-container:nth-child(1):after, .step-container:nth-child(2):after, .step-container:nth-child(3):after {
+        display: none;
+    }
+
+    .step-number {
+        width: 70px;
+        height: 70px;
+        line-height: 60px;
+    }
+
+    .step-number span {
+        width: 60px;
+        height: 60px;
+        font-size: 2.8em;
+    }
+
+    .step-title {
+        font-size: 2.5em;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+ * --------------------------------------------- BUY NEW POLICY STEP 2 ------------------------------------------------
+ * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1220px) {
+    .drivers-added-from-add-driver-form .driver-added:nth-child(odd), .drivers-added-from-add-driver-form .driver-added:nth-child(even) {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    .step-2-form .cw-col-left, .step-2-form .cw-col-right {
+        width: 100%;
+        float: none;
+    }
+
+    .step-2-form .form-label:last-child {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .step-2-form .form-4-inputs .form-field {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .step-2-form .form-4-inputs .form-field:last-child {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .step-2-form .form-submit-btn a:last-child {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+    }
+
+    .step-2-form .form-submit-btn input:first-child {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .add-driver-form {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .driver-added .driver-added-detail p {
+        width: 90px;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+  * --------------------------------------------- BUY NEW POLICY STEP 3 ------------------------------------------------
+  * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+    .step-3-form {
+        max-width: 100%;
+    }
+
+    .step-3-form .cw-col-left, .step-3-form .cw-col-right {
+        width: 100%;
+        float: none;
+    }
+
+    .step-3-form .cw-col-right {
+        margin-top: 50px;
+    }
+
+    .step-3-form .form-submit-btn {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .step-3-form .form-submit-btn a:last-child {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+    }
+
+    .step-3-form .form-submit-btn input:first-child {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+   * --------------------------------------------- BUY NEW POLICY STEP 3 ------------------------------------------------
+   * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1360px) {
+    .policy-holder-vehicle-details .cw-col-left {
+        width: 50%;
+    }
+
+    .policy-holder-vehicle-details .details-from-step-2 p, .policy-holder-vehicle-details .details-from-step-2 span {
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .insurance-offer .cw-col-3:nth-child(1) {
+        width: 250px;
+        float: none;
+        margin: auto;
+    }
+
+    .insurance-offer .cw-col-3:nth-child(2), .insurance-offer .cw-col-3:nth-child(3) {
+        width: 100%;
+        float: none;
+    }
+
+    .company-more-details .company-branch-details .company-branch-website, .company-more-details .company-branch-details .company-branch-email, .company-more-details .company-branch-details .company-branch-phone-number, .company-more-details .company-branch-details .company-branch-fax-number {
+        margin-right: 30px;
+    }
+
+    .rtl .company-more-details .company-branch-details .company-branch-website, .rtl .company-more-details .company-branch-details .company-branch-email, .rtl .company-more-details .company-branch-details .company-branch-phone-number, .rtl .company-more-details .company-branch-details .company-branch-fax-number {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .insurance-offer .cw-col-3:nth-child(3) .insurance-company-discount-details p:not(:first-child) {
+        line-height: 20px;
+    }
+
+    .insurance-offers-details .cw-full-width, .policy-holder-vehicle-details .cw-full-width {
+        padding: 50px 20px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .policy-holder-vehicle-details .cw-col-left, .policy-holder-vehicle-details .cw-col-right {
+        width: 100%;
+        float: none;
+    }
+
+    .policy-holder-vehicle-details .cw-col-right {
+        margin-top: 20px;
+    }
+
+    .activate-account-input input[type="submit"] {
+        margin-top: 40px;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+  * ---------------------------------------------- USER PANEL DEFAULTS --------------------------------------------------
+  * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1600px) {
+    .info-style-one .cw-col-info {
+        width: 100%;
+        float: none !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .user-dashboard .cw-col-left {
+        width: 300px;
+    }
+
+    .user-panel-navigation ul.sub-menu-user-panel-links li a {
+        text-indent: 0px;
+    }
+
+    .user-dashboard .cw-col-right {
+        width: calc(100% - 330px);
+    }
+
+    .user-dashboard .cw-col-form-left, .user-dashboard .cw-col-form-right {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .info-style-one .cw-col-info .cw-col-info-content {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .info-style-one .cw-col-info .cw-col-info-content p, .info-style-one .cw-col-info .cw-col-info-content span {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .user-dashboard {
+        padding-top: 100px;
+    }
+
+    .user-dashboard .cw-col-left {
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+    }
+
+    .user-dashboard .cw-col-right {
+        width: 100%;
+    }
+
+    .user-dashboard .cw-col-right {
+        padding: 25px 15px;
+    }
+
+    .user-panel-navigation ul.menu-user-panel-link li a {
+        padding: 10px 40px;
+    }
+
+    .user-panel-navigation ul.menu-user-panel-link li {
+        max-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .info-style-one .cw-col-info {
+        padding: 30px 20px;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+  * ------------------------------------------------- USER DASHBORAD ----------------------------------------------------
+  * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1550px) {
+    .rtl .dashboard-cards .cw-full-width a.cw-col-3,
+    .dashboard-cards .cw-full-width a.cw-col-3 {
+        width: 47.5%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    .rtl .dashboard-cards .cw-full-width a.cw-col-3:nth-child(odd),
+    .dashboard-cards .cw-full-width a.cw-col-3:nth-child(odd) {
+        float: left;
+    }
+
+    .rtl .dashboard-cards .cw-full-width a.cw-col-3:nth-child(even),
+    .dashboard-cards .cw-full-width a.cw-col-3:nth-child(even) {
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .rtl .dashboard-cards .cw-full-width a.cw-col-3,
+    .dashboard-cards .cw-full-width a.cw-col-3 {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+  * ---------------------------------------- INSURANCE COMPANY DETAILS MODAL -------------------------------------------
+  * -------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 850px) {
+    .insurance-company-details-modal .cw-col-right {
+        width: 100%;
+        float: none;
+        margin-bottom: 50px;
+    }
+
+    .insurance-company-details-modal .cw-col-right img {
+        width: 200px;
+        margin: auto;
+    }
+
+    .insurance-company-details-modal .cw-col-left {
+        width: 100%;
+        float: none;
+    }
+
+    .insurance-company-details-modal .company-more-details .company-branch-details .company-branch-address a {
+        width: 80%;
+    }
+}
